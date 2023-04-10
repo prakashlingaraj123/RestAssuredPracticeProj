@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-10T16:48:22 IST" name="Default suite" finished-at="2023-04-10T16:48:28 IST" duration-ms="6141">
+    <groups>
+    </groups>
+    <test started-at="2023-04-10T16:48:22 IST" name="Default test" finished-at="2023-04-10T16:48:28 IST" duration-ms="6141">
+      <class name="apiTesting.restAssured.Basic.LibraryapiTest_JsonParametrization">
+        <test-method signature="libraryAPIAddBook(java.lang.String,java.lang.String)[pri:0, instance:apiTesting.restAssured.Basic.LibraryapiTest_JsonParametrization@66f57048]" started-at="2023-04-10T16:48:22 IST" name="libraryAPIAddBook" data-provider="BookData" finished-at="2023-04-10T16:48:27 IST" duration-ms="5082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kba]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- libraryAPIAddBook -->
+        <test-method signature="libraryAPIAddBook(java.lang.String,java.lang.String)[pri:0, instance:apiTesting.restAssured.Basic.LibraryapiTest_JsonParametrization@66f57048]" started-at="2023-04-10T16:48:27 IST" name="libraryAPIAddBook" data-provider="BookData" finished-at="2023-04-10T16:48:28 IST" duration-ms="462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cbb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- libraryAPIAddBook -->
+        <test-method signature="libraryAPIAddBook(java.lang.String,java.lang.String)[pri:0, instance:apiTesting.restAssured.Basic.LibraryapiTest_JsonParametrization@66f57048]" started-at="2023-04-10T16:48:28 IST" name="libraryAPIAddBook" data-provider="BookData" finished-at="2023-04-10T16:48:28 IST" duration-ms="442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ampp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- libraryAPIAddBook -->
+      </class> <!-- apiTesting.restAssured.Basic.LibraryapiTest_JsonParametrization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
