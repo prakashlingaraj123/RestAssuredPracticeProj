@@ -15,7 +15,7 @@ public class AddingLocationGMap {
 		// TODO Auto-generated method stub
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json").
-		body(Payload.locationdetails()).when().post("/maps/api/place/add/json").
+		body(AddingLocPayload.locationdetails()).when().post("/maps/api/place/add/json").
 			then().log().all().assertThat().statusCode(200).
 			body("scope", equalTo("APP")).header("Server", "Apache/2.4.41 (Ubuntu)").extract().response().asString();
 		System.out.println(response);

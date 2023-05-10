@@ -1,6 +1,6 @@
 package apiTesting.restAssured.Basic;
 
-public class Payload {
+public class AddingLocPayload {
 public static String locationdetails() {
 	
 	return "{\r\n"

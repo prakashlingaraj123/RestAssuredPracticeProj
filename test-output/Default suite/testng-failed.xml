@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTesting.restAssured.Basic.LibraryapiTest_JsonParametrization">
+      <class name="apiTesting.restAssured.Basic.mb_oAuth">
         <methods>
-          <include name="libraryAPIAddBook" invocation-numbers="0 1 2"/>
+          <include name="oAuth"/>
         </methods>
-      </class> <!-- apiTesting.restAssured.Basic.LibraryapiTest_JsonParametrization -->
+      </class> <!-- apiTesting.restAssured.Basic.mb_oAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
